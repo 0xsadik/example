@@ -1,0 +1,60 @@
+
+.main-wrap {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    /* border: 1px solid gray; */
+}
+
+
+.top-wrap {
+    background-color: #55BDDD;
+}
+.logo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.creat {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.ems {
+    padding-bottom: 7%;
+}
+
+/* next section */
+.txt-p {
+    font-size: 16px;
+}
+
+.cart1 {
+    width: 100%;
+}
+.cart2 {
+    width: 100%;
+}
+
+/* -------responsive design starts here --------- */
+
+@media (min-width: 576px) {
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .top-wrap {
+        width: 100%;
+    }
+    .ems {
+        font-size: 30px;
+    }
+    .sm {
+        font-size: 22px;
+    }
+    .txt-p {
+        font-size: 14px;
+    }
+}
